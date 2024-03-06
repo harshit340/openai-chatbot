@@ -1,0 +1,16 @@
+// this type of req is normal and cannot handle large database we will create it dynamic
+
+/**************************************************************** */
+/* get post put delete are the http requestes */
+
+/* app.post("/hello",(req,res,next)=>{
+  console.log(req.body.name)
+  return res.send("hello")
+}) */
+/**************************************************************** */
+/* 
+? creating dynamic call ?
+app.post("/USER/:ID",(req,res,next)=>{
+  console.log(req.params.ID)
+  return res.send("hello")
+}) */
