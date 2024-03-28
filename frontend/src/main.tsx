@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import { createTheme, ThemeProvider } from "@mui/material";
+// to use routing in react 
 import { BrowserRouter } from "react-router-dom";
 
 
